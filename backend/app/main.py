@@ -37,6 +37,7 @@ app = FastAPI(
 # Allow the configured frontend URL (and common dev variants)
 origins = [
     settings.FRONTEND_URL,
+    "https://add-easy-for.vercel.app",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
