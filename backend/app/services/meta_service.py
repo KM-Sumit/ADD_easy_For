@@ -23,7 +23,7 @@ META_TOKEN_URL = f"https://graph.facebook.com/{settings.META_API_VERSION}/oauth/
 REQUIRED_SCOPES = [
     "ads_management",
     "ads_read",
-    "instagram_basic",
+    "instagram_business_basic",  # instagram_basic is deprecated; use instagram_business_basic for Meta Business Login
     "pages_show_list",
     "business_management",
 ]

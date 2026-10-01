@@ -57,8 +57,7 @@ To launch real campaigns on Instagram, you must create a Meta App and configure 
 Your app needs the following permissions to manage ads and Instagram accounts:
 - `ads_management`
 - `ads_read`
-- `instagram_basic`
-- `instagram_content_publish`
+- `instagram_business_basic`  *(replaces deprecated `instagram_basic` — required for Meta Business Login)*
 - `pages_show_list`
 - `business_management`
 
